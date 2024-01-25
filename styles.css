@@ -1,0 +1,40 @@
+body{
+    background-color: blanchedalmond;
+}
+
+h1{
+    color: red;
+    text-align: center;
+}
+
+h2{
+    color: crimson;
+    text-align: center;
+}
+
+form{
+    max-width: 400px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(25, 178, 50);
+}
+
+form label{
+    margin-top: 15px;
+}
+
+#first{
+    color: rgb(28, 34, 213);
+}
+
+.first-div{
+    background-color: aqua;
+}
+
+img{
+    display: block;
+    margin: auto;
+    width: 200px;
+    height: 200px;
+}
