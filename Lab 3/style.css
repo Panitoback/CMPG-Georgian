@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Tahoma, Verdana, sans-serif;
+}
+
+p{
+    font-size: 14px;
+    font-weight: 500;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    width: 60%;
+    margin: 0 auto;
+}
+
+header{
+    height: 120px;
+}
+
+header h1{
+    font-size: 34px;
+    margin-bottom: 10px;
+}
+
+header h2{
+    font-size: 26px;
+}
+
+main{
+    display: flex;
+}
+
+/*Section*/
+
+#left{
+    width: 59%;
+}
+
+#right{
+    width: 41%;
+}
+
+
+/* ----------------------------------- */
+
+article{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+article p, aside p{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+aside :nth-child(2){
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+footer p{
+    font-size: 14px;
+}
