@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Pizza Order</title>
+</head>
+<body>
+    <div id="container">
+        <header>
+            <h1>BAMBINO PIZZA</h1>
+            <p>The best pizza in Toronto and its surroundings.</p>
+            <img src="pizzaentera.png" alt="Pizza">
+        </header>
+
+        <main>
+            <form id="myForm">
+                <div class="left_container">
+                    <div class="form_div">
+                        <label for="pizzaNumber">Number of Pizzas</label>
+                        <input type="number" id="pizzaNumber">
+                    </div>
+
+                    <div class="form_div">
+                        <label for="shape-round">Round</label>
+                        <input type="radio" id="shape" name="shape" value="round">
+
+                        <label for="shape-square">Square</label>
+                        <input type="radio" id="shape" name="shape" value="square">
+                    </div>
+
+                    <div class="form_div">
+                        <label for="toppings">Choose the ingredients <br> you want</label>
+                        <select name="toppings" id="toppings">
+                            <option value="pepperoni">Pepperoni</option>
+                            <option value="mushrooms">Mushrooms</option>
+                            <option value="onions">Onions</option>
+                            <option value="sausage">Sausage</option>
+                            <option value="bacon">Bacon</option>
+                            <option value="black_olives">Black Olives</option>
+                            <option value="green_peppers">Green Peppers</option>
+                            <option value="pineapple">Pineapple</option>
+                            <option value="ham">Ham</option>
+                            <option value="jalapenos">Jalapeños</option>
+                            <option value="tomatoes">Tomatoes</option>
+                        </select>
+
+                        <select name="toppings" id="toppings">
+                            <option value="pepperoni">Pepperoni</option>
+                            <option value="mushrooms">Mushrooms</option>
+                            <option value="onions">Onions</option>
+                            <option value="sausage">Sausage</option>
+                            <option value="bacon">Bacon</option>
+                            <option value="black_olives">Black Olives</option>
+                            <option value="green_peppers">Green Peppers</option>
+                            <option value="pineapple">Pineapple</option>
+                            <option value="ham">Ham</option>
+                            <option value="jalapenos">Jalapeños</option>
+                            <option value="tomatoes">Tomatoes</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="right_container">
+                    <div class="form_div">
+                        <label for="text">Slices</label>
+                        <input type="number" id="text">
+                    </div>
+
+                    <div class="form_div">
+                        <label for="take-out">Take out</label>
+                        <input type="radio" id="take-out" name="eat" value="take-out">
+
+                        <label for="delivery">Delivery</label>
+                        <input type="radio" id="delivery" name="eat" value="delivery">
+                        
+                        <label for="eat-in">Eat-in</label>
+                        <input type="radio" id="eat-in" name="eat" value="eat-in">
+                    </div>
+
+                    <div class="form_div">
+                        <label for="thin-crust">Thin crust</label>
+                        <input type="checkbox" id="thin-crust" name="crust" value="thin-crust">
+
+                        <label for="deep-dish">Deep dish</label>
+                        <input type="checkbox" id="deep-dish" name="crust" value="deep-dish">
+                        
+                        <label for="stuffed-crust">Stuffed-crust</label>
+                        <input type="checkbox" id="stuffed-crust" name="crust" value="stuffed-crust">
+                    </div>
+                </div>
+            </form>
+        </main>
+
+        <footer>
+            <label for="observaciones">SUGGESTIONS</label>
+            <textarea   textarea id="observaciones" name="observaciones" rows="8" cols="80"></textarea>    
+        
+            <div class="button_container">
+                <button type="submit" form="myForm">Submit</button>
+                <button type="reset" form="myForm">Reset</button>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
