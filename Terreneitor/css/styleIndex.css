@@ -17,7 +17,7 @@
 
 body{
     position: relative;
-    background-image: url(../../assets/promotion/backgroundimg.gif);
+    background-image: url(./backgroundimg.gif);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
